@@ -61,3 +61,97 @@
 }
 
 ]
+
+[
+  {
+    "id": 5,
+    "ano": 2022,
+    "area": "Linguagens",
+    "materia": "Artes Visuais",
+    "enunciado": "Um pintor pretende fazer uma reprodução do quadro Guernica em uma tela de dimensões 20 cm por 30 cm. Essa obra, de autoria do espanhol Pablo Picasso, é uma pintura com 3,6 m de altura e 7,8 m de comprimento. A reprodução a ser feita deverá preencher a maior área possível da tela, mantendo a proporção entre as dimensões da obra original. A escala que deve ser empregada para essa reprodução é:",
+    "alternativas": [
+      "1 : 12",
+      "1 : 18",
+      "1 : 21",
+      "1 : 23",
+      "1 : 26"
+    ],
+    "resposta": "b"
+  },
+  {
+    "id": 6,
+    "ano": 2022,
+    "area": "Ciências Humanas",
+    "materia": "Filosofia",
+    "enunciado": "Eis o ensinamento de minha doutrina: “Viva de forma a ter de desejar reviver — é o dever —, pois, em todo caso, você reviverá! Aquele que ama antes de tudo se submeter, obedecer e seguir, que obedeça! Mas que saiba para o que dirige sua preferência, e não recue diante de nenhum meio! É a eternidade que está em jogo!”.\n\nQual conduta se mostra alinhada à proposta nietzscheana apresentada no texto?",
+    "alternativas": [
+      "Utópica, pela projeção do ideal.",
+      "Trágica, pela afirmação do presente.",
+      "Resignada, pela aceitação da realidade.",
+      "Religiosa, pela conexão ao transcendente.",
+      "Saudosista, pela vinculação às reminiscências."
+    ],
+    "resposta": "b"
+  },
+  {
+    "id": 7,
+    "ano": 2022,
+    "area": "Ciências Humanas",
+    "materia": "Geografia",
+    "enunciado": "Como engajar-se em campanhas que evocam a 'proteção ao meio ambiente' sem desconsiderar as evidentes prioridades da luta contra a pobreza e a desigualdade social ou mostrando-se capaz de responder aos propósitos desenvolvimentistas correntes que almejam a rentabilização de capitais em nome da geração de emprego e renda. Em outros termos, como conquistar legitimidade para as questões ambientais, quando, com frequência, a preocupação com o ambiente é apresentada como um obstáculo ao enfrentamento do desemprego e à superação da pobreza?\n\nNo campo, o enfrentamento dos problemas destacados encontra-se no incentivo à criação de:",
+    "alternativas": [
+      "Reservas que inibam a utilização do solo para a atividade agrícola.",
+      "Polos industriais que promovam a ampliação de postos de trabalho.",
+      "Cooperativas que possibilitem o manejo sustentável dos recursos naturais.",
+      "Políticas habitacionais que transfiram moradores de mananciais para as cidades.",
+      "Movimentos comunitários que garantam direitos civis para os povos da floresta."
+    ],
+    "resposta": "c"
+  },
+  {
+    "id": 8,
+    "ano": 2022,
+    "area": "Ciências Humanas",
+    "materia": "História",
+    "enunciado": "Primeiro de dezembro de 1955. Rosa Parks, uma costureira negra norte-americana se recusa a ceder o lugar a um homem branco nos Estados Unidos. Foi durante uma viagem de ônibus no estado do Alabama, região sudeste do país. Ela acabou presa.\n\nEsse ato individual ganhou repercussão nacional e colaborou decisivamente para:",
+    "alternativas": [
+      "Reacender a disputa militar entre estados da união.",
+      "Estimular o ativismo político entre grupos oprimidos.",
+      "Aprofundar o fosso econômico entre as classes sociais.",
+      "Demonstrar o resultado insatisfatório de táticas pacifistas.",
+      "Promover a emigração forçada de contingentes populacionais."
+    ],
+    "resposta": "b"
+  },
+  {
+    "id": 9,
+    "ano": 2024,
+    "area": "Linguagens",
+    "materia": "Português",
+    "enunciado": "Um ano depois de ter sido criado, o ChatGPT, ferramenta capaz de produzir textos em qualquer área, generalizou-se, gerando dúvidas sobre autoria de teses e trabalhos.\n\nDe acordo com esse texto, o uso de uma ferramenta da inteligência artificial em contexto acadêmico revela um impacto de natureza:",
+    "alternativas": [
+      "Colaborativa, por fomentar o intercâmbio entre instituições de ensino de vários países.",
+      "Teórica, por se basear na tradução de textos da língua inglesa para outras línguas.",
+      "Mercadológica, por requerer recursos para o aperfeiçoamento profissional.",
+      "Normativa, por estabelecer parâmetros para a checagem de fontes.",
+      "Pedagógica, por potencializar desafios para a educação."
+    ],
+    "resposta": "e"
+  },
+  {
+    "id": 10,
+    "ano": 2022,
+    "area": "Linguagens",
+    "materia": "Português",
+    "enunciado": "Panela [Do lat. *pannella, dim. do lat. vulg. panna, ‘frigideira’.] Substantivo feminino.\n\nCom base na leitura do verbete 'panela', vê-se que a função da linguagem predominante é a metalinguística, pois nele se:",
+    "alternativas": [
+      "Discute uma concepção.",
+      "Apresenta um argumento.",
+      "Influencia o leitor.",
+      "Define um conceito.",
+      "Expõe um objeto."
+    ],
+    "resposta": "d"
+  }
+]
+
