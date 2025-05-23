@@ -58,16 +58,12 @@
     "utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
   ],
   "resposta": "c"
-}
-
-]
-
-[
+},
   {
     "id": 5,
     "ano": 2022,
-    "area": "Linguagens",
-    "materia": "Artes Visuais",
+    "area": "Matemática",
+    "materia": "Matemática",
     "enunciado": "Um pintor pretende fazer uma reprodução do quadro Guernica em uma tela de dimensões 20 cm por 30 cm. Essa obra, de autoria do espanhol Pablo Picasso, é uma pintura com 3,6 m de altura e 7,8 m de comprimento. A reprodução a ser feita deverá preencher a maior área possível da tela, mantendo a proporção entre as dimensões da obra original. A escala que deve ser empregada para essa reprodução é:",
     "alternativas": [
       "1 : 12",
