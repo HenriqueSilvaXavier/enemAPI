@@ -43,5 +43,21 @@
     "favorece a formação de ilhas de proteção integral."
   ],
   "resposta": "a"
+},
+{
+  "id": 4,
+  "ano": 2018,
+  "area": "Ciências da Natureza",
+  "materia": "Biologia",
+  "enunciado": "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexualmente maduro, que ocupam diversos hábitats. Os insetos com holometabolia pertencem às ordens mais numerosas em termos de espécies conhecidas. Esse tipo de desenvolvimento está relacionado a um maior número de espécies em razão da:",
+  "alternativas": [
+    "proteção na fase de pupa, favorecendo a sobrevivência de adultos férteis.",
+    "produção de muitos ovos, larvas e pupas, aumentando o número de adultos.",
+    "exploração de diferentes nichos, evitando a competição entre as fases da vida.",
+    "ingestão de alimentos em todas as fases de vida, garantindo o surgimento do adulto.",
+    "utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
+  ],
+  "resposta": "c"
 }
+
 ]
