@@ -1,0 +1,29 @@
+{
+  "name": "enem-questions-api",
+  "version": "1.0.0",
+  "description": "API Node.js + Express com questões do ENEM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "enem",
+    "api",
+    "express",
+    "node",
+    "questions"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
