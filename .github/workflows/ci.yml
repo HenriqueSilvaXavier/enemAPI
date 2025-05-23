@@ -1,4 +1,4 @@
-name: Node.js CI
+name: CI/CD Pipeline
 
 on:
   push:
@@ -9,29 +9,72 @@ on:
       - main
 
 jobs:
-  test:
+
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - name: Check out repository
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '16'
 
     - name: Install dependencies
-      run: |
-        npm install
+      run: npm install
 
-    - name: Run tests
-      run: |
-        npm test
+    - name: Run tests with Jest
+      run: npm test
 
-    - name: Upload Test Coverage to SonarQube
-      if: success()
+ 
+  jmeter:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Install JMeter
       run: |
-        curl -sS https://sonarcloud.io/downloads/sonar-scanner-cli.zip -o sonar-scanner.zip
-        unzip sonar-scanner.zip
-        ./sonar-scanner-*/bin/sonar-scanner -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+        # Baixar e instalar o JMeter
+        wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.4.1.tgz
+        tar -xvzf apache-jmeter-5.4.1.tgz
+        mv apache-jmeter-5.4.1 /opt/jmeter
+
+    - name: Run JMeter tests
+      run: |
+        # Rodar o JMeter em modo não interativo
+        /opt/jmeter/bin/jmeter -n -t tests/test.jmx -l results.jtl -e -o ./report
+
+    - name: Upload JMeter test results
+      uses: actions/upload-artifact@v2
+      with:
+        name: jmeter-results
+        path: ./report
+
+ 
+  sonarcloud:
+    name: SonarCloud Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Install SonarScanner
+      run: |
+        # Baixar e instalar o SonarScanner
+        wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-linux.zip
+        unzip sonar-scanner-cli-4.6.2.2472-linux.zip
+        mv sonar-scanner-4.6.2.2472-linux /opt/sonar-scanner
+
+    - name: Run SonarCloud analysis
+      run: |
+        # Rodar a análise do SonarQube (SonarCloud)
+        /opt/sonar-scanner/bin/sonar-scanner \
+          -Dsonar.projectKey=your-project-key \
+          -Dsonar.organization=your-organization \
+          -Dsonar.host.url=https://sonarcloud.io \
+          -Dsonar.login=${{ secrets.SONAR_TOKEN }}
