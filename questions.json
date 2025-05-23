@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "ano": 2013,
+    "area": "Linguagens",
+    "materia": "Português",
+    "enunciado": "Nessa charge, o recurso morfossintático que colabora para o efeito de humor está indicado pelo(a)",
+    "alternativas": [
+      "emprego de uma oração adversativa, que orienta a quebra da expectativa ao final.",
+      "uso de conjunção aditiva, que cria uma relação de causa e efeito entre as ações.",
+      "retomada do substantivo \"mãe\", que desfaz a ambiguidade dos sentidos a ele atribuídos.",
+      "utilização da forma pronominal \"la\", que reflete um tratamento formal do filho em relação à \"mãe\".",
+      "repetição da forma verbal \"é\", que reforça a relação de adição existente entre as orações."
+    ],
+    "resposta": "a"
+  },
+  {
+    "id": 2,
+    "ano": 2022,
+    "area": "Matemática",
+    "materia": "Matemática",
+    "enunciado": "Uma cozinheira produz docinhos especiais por encomenda. Usando uma receita-base de massa, ela prepara uma porção, com a qual produz 50 docinhos maciços de formato esférico, com 2 cm de diâmetro. Um cliente encomenda 150 desses docinhos, mas pede que cada um tenha formato esférico com 4 cm de diâmetro. A cozinheira pretende preparar o número exato de porções da receita-base de massa necessário para produzir os docinhos dessa encomenda. Quantas porções da receita-base de massa ela deve preparar para atender esse cliente?",
+    "alternativas": [
+      "2",
+      "3",
+      "6",
+      "12",
+      "24"
+    ],
+    "resposta": "d"
+  }
+]
